@@ -53,7 +53,7 @@ class Activities {
 
     private int randomizeAge() {
         Random r = new Random();
-        return r.nextInt(29);
+        return 1 + r.nextInt(29);
     }
 
     // Metoda określająca sposób wypełnienia pól sawanny w stanie początkowym.

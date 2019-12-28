@@ -52,7 +52,7 @@ public class Main {
             int ySize = userInput.setParameter(5, 20);
             System.out.println("Podaj liczbę tur.");
             int numberOfTurns = userInput.setParameter(0, 15);
-            String[][] animalInfo = new String[xSize * ySize * 2 + xSize * ySize * numberOfTurns / 5][30];
+            String[][] animalInfo = new String[xSize * ySize * 2 + xSize * ySize * numberOfTurns / 5 + 1][30];
             Cell[][] savanna = act.createSavanna(xSize, ySize);
 
             int t = 0;
